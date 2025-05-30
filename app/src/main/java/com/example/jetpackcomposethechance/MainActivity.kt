@@ -10,7 +10,9 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.jetpackcomposethechance.composables.BasePreview
 import com.example.jetpackcomposethechance.ui.theme.JetpackComposeTheChanceTheme
 
 class MainActivity : ComponentActivity() {
@@ -38,10 +40,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     )
 }
 
-@Preview(showBackground = true)
+@BasePreview
 @Composable
 fun GreetingPreview() {
     JetpackComposeTheChanceTheme {
-        Greeting("Android")
+        Greeting(stringResource(R.string.app_name))
     }
 }
