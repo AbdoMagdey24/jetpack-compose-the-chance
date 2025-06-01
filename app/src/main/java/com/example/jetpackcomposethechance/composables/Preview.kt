@@ -22,6 +22,13 @@ import androidx.compose.ui.tooling.preview.Preview
     locale = "en",
     uiMode = Configuration.UI_MODE_NIGHT_NO or Configuration.UI_MODE_TYPE_NORMAL,
 )
+@Preview(
+    device = "spec:width=1440px,height=3960px,dpi=560",
+    name = "PIXEL_3_XL",
+    showBackground = true,
+    locale = "en",
+    uiMode = Configuration.UI_MODE_NIGHT_NO or Configuration.UI_MODE_TYPE_NORMAL,
+)
 annotation class BasePreview()
 
 data object Devices {
