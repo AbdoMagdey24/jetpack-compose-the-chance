@@ -1,4 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">جيت باك كومبوز ذا تشانس</string>
+    <string name="greating_jerry">ازيك يا جيري👋🏻</string>
+    <string name="which_tom">عاوز تشتري أنهي توم في دول ؟</string>
+    <string name="search_placeholder">دور عن توم ...</string>
+    <string name="cheese">حتة جبنة</string>
+    <string name="sport_tom">سبورت توم</string>
+    <string name="sport_tomـdescription">بيجري متر ويتزحلق يقع عالأرض</string>
+    <string name="bob_tom">توم القنبلة</string>
+    <string name="bob_tomـdescription">بيفجر نفسه قبل ما يعرف يمسك جيري</string>
+    <string name="crying_tom">توم العيوطة</string>
+    <string name="crying_tomـdescription">بيعيط زي العيال الصغيرة ويملي الارض دموع</string>
+    <string name="lover_tom">توم الحبيب</string>
+    <string name="lover_tomـdescription">بيحب من طرف واحد والقطة كارفة له عالاخر</string>
+    <string name="scaring_tom">توم الخواف</string>
+    <string name="scaring_tomـdescription">قط خواف.. بيترعب لما بيشوف فيران</string>
+    <string name="frozen_tom">توم المتجمد</string>
+    <string name="frozen_tomـdescription">بيتصلب ويتمسمر مكانه اول ما يحس انه أذي جيري</string>
+    <string name="adopt_tom">اتبني توم.. ببلاش من غير مشاكل</string>
+    <string name="offer">اشتري واحد وخد اتنين فوق البيعة</string>
+    <string name="view_all">اعرض الكل</string>
+    <string name="cheap_section">قسم توم الرخيص</string>
+    <string name="high_tension">ضغط عالي</string>
+    <string name="shocking_foods">أطعمة صادمة</string>
+    <string name="meal_title"> مكرونة متكهربة</string>
+    <string name="meal_desc">معكرونة مطبوخة بكابل شاحن ومرشوشة بجبنة مشكوك بأمرها. تأكد من فصلها عن الكهرباء قبل تناولها (أو لا، الأمر متروك لك).</string>
+    <string name="details">تفاصيل</string>
+    <string name="preparation_method">طريقة التحضير</string>
+    <string name="step_1">ضع المكرونة في المحمصة.</string>
+    <string name="step_2">اسكب عصير البطارية فوقها.</string>
+    <string name="step_3">انتظر حتى تشتعل الشرارة.</string>
+    <string name="step_4">قدّمها باستخدام قفاز عازل.</string>
+    <string name="add_to_cart">ضيف للسلة</string>
+    <string name="sleeping">تغيير مكان النوم</string>
+    <string name="meow">اعدادات النونوة</string>
+    <string name="fridge_password">باسوورد فتح التلاجة</string>
+    <string name="mouse">فيران</string>
+    <string name="last_stolen_meal">اخر وجبة مسروقة</string>
+    <string name="sleep_mode">تغيير مود النوم</string>
+    <string name="settings">Tom settings</string>
+    <string name="quarrel_value">2M 12K</string>
+    <string name="chase_value">+500 h</string>
+    <string name="hunting_value">2M 12</string>
+    <string name="heartbroken_value">3M 7K</string>
+    <string name="quarrel_title">No. of quarrels</string>
+    <string name="chase_title">Chase time</string>
+    <string name="hunting_title">Hunting times</string>
+    <string name="heartbroken_title">Heartbroken</string>
 </resources>
