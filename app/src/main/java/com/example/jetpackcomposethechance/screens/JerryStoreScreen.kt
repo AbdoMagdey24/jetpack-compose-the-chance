@@ -324,8 +324,8 @@ fun CustomLinearCard(
                     Text(
                         text = "Buy 1 Tom and get 2 for free",
                         fontFamily = IBM_PLEX_SANS,
-                        fontSize = 16.sp,
-                        fontWeight = FontWeight.SemiBold
+                        fontSize = 17.sp,
+                        fontWeight = FontWeight.Bold
                     )
 
                     Text(

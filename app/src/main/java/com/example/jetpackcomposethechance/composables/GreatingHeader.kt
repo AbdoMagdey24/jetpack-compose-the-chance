@@ -31,9 +31,7 @@ fun GreatingHeader(
             fontFamily = IBM_PLEX_SANS,
             fontWeight = FontWeight.Medium,
             fontSize = 14.sp,
-            modifier = Modifier.padding(end = 2.dp)
         )
-
         Text(
             text = question,
             color = GrayTextNormal,
