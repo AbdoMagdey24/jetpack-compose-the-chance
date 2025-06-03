@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.sizeIn
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
@@ -16,6 +17,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.jetpackcomposethechance.R
@@ -32,7 +35,7 @@ fun NotificationIcon(
             contentDescription = "Notifications",
             modifier = Modifier
                 .fillMaxSize()
-                .border(1.dp, Color.Gray, RoundedCornerShape(12.dp))
+                .border(1.dp, Color.LightGray, RoundedCornerShape(12.dp))
                 .padding(8.dp)
         )
 
@@ -40,15 +43,17 @@ fun NotificationIcon(
             Box(
                 modifier = Modifier
                     .align(Alignment.TopEnd)
-                    .offset(x = 4.dp, y = -5.dp)
-                    .size(16.dp)
-                    .background(color = MainBlue, shape = CircleShape),
+                    .offset(x = 6.dp, y = (-4).dp)
+                    .sizeIn(minWidth = 18.dp, minHeight = 18.dp)
+                    .background(MainBlue, CircleShape),
                 contentAlignment = Alignment.Center
             ) {
                 Text(
-                    text = count.toString(),
+                    text = if (count > 99) "99+" else count.toString(),
                     color = Color.White,
-                    fontSize = 10.sp
+                    fontSize = 10.sp,
+                    lineHeight = 10.sp,
+                    textAlign = TextAlign.Center,   fontWeight = FontWeight.Bold
                 )
             }
         }

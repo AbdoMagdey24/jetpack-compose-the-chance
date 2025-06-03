@@ -25,6 +25,7 @@ import androidx.compose.ui.unit.dp
 import com.example.jetpackcomposethechance.data.rateList
 import com.example.jetpackcomposethechance.screens.JerryStoreScreen
 import com.example.jetpackcomposethechance.screens.RateCards
+import com.example.jetpackcomposethechance.screens.TomAccountScreen
 import com.example.jetpackcomposethechance.screens.TomKitchenScreen
 import com.example.jetpackcomposethechance.ui.theme.JetpackComposeTheChanceTheme
 import com.example.jetpackcomposethechance.ui.theme.MainBlue
@@ -38,7 +39,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             JetpackComposeTheChanceTheme {
                 Scaffold {
-                    TomKitchenScreen()
+                    //JerryStoreScreen(2)
+                    TomAccountScreen()
                 }
             }
         }

@@ -6,7 +6,9 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -18,7 +20,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.jetpackcomposethechance.R
@@ -42,36 +46,79 @@ fun AccountColoredCard(
 ) {
     Row(
         modifier = modifier
-            .wrapContentWidth()
-            .background(cardColor, RoundedCornerShape(12.dp))
-            .padding(12.dp),
+            .background(cardColor, RoundedCornerShape(12.dp)),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.Center
     ) {
         Image(
             painter = painterResource(iconResource),
             contentDescription = "",
+            modifier = Modifier
+                .padding(start = 12.dp)
+                .size(40.dp)
         )
-        Spacer(modifier = Modifier.width(4.dp))
-        Column {
+
+
+        Column(
+            modifier = Modifier.padding(start = 10.dp).weight(1f)
+        ) {
             Text(
                 text = stringResource(valueResource),
-                color = GrayText99,
-                fontFamily = IBM_PLEX_SANS,
-                fontWeight = FontWeight.Bold,
-                fontSize = 16.sp,
-                modifier = Modifier.padding(end = 2.dp)
+                style = TextStyle(
+                    fontSize = 17.sp,
+                    lineHeight = 16.sp,
+                    fontFamily = IBM_PLEX_SANS,
+                    fontWeight = FontWeight.Bold,
+                    color = Color(0x99121212),
+                    textAlign = TextAlign.Center,
+                )
             )
 
             Text(
-                text = stringResource(descriptionResource),
-                color = GrayText5E,
-                fontFamily = IBM_PLEX_SANS,
-                fontWeight = FontWeight.Normal,
-                fontSize = 12.sp
+                text =
+                    stringResource(descriptionResource),
+                style = TextStyle(
+                    fontSize = 15.sp,
+                    lineHeight = 12.sp,
+                    fontFamily = IBM_PLEX_SANS,
+                    fontWeight = FontWeight.Medium,
+                    color = Color(0x5E121212),
+                    textAlign = TextAlign.Center,
+                )
             )
         }
     }
+//    Row(
+//        modifier = modifier
+//            .wrapContentWidth()
+//            .background(cardColor, RoundedCornerShape(12.dp))
+//            .padding(12.dp),
+//        verticalAlignment = Alignment.CenterVertically,
+//        horizontalArrangement = Arrangement.Center
+//    ) {
+//        Image(
+//            painter = painterResource(iconResource),
+//            contentDescription = "",
+//        )
+//        Spacer(modifier = Modifier.width(4.dp))
+//        Column {
+//            Text(
+//                text = stringResource(valueResource),
+//                color = GrayText99,
+//                fontFamily = IBM_PLEX_SANS,
+//                fontWeight = FontWeight.Bold,
+//                fontSize = 16.sp,
+//                modifier = Modifier.padding(end = 2.dp)
+//            )
+//
+//            Text(
+//                text = stringResource(descriptionResource),
+//                color = GrayText5E,
+//                fontFamily = IBM_PLEX_SANS,
+//                fontWeight = FontWeight.Normal,
+//                fontSize = 12.sp
+//            )
+//        }
+//    }
 }
 
 @BasePreview

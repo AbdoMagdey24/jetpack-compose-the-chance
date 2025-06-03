@@ -36,8 +36,8 @@ fun TextWithIcon(
 ){
     Row(
         modifier = modifier
-            .wrapContentWidth()
-            .padding(12.dp),
+            .wrapContentWidth(),
+          //  .padding(12.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.Center
     ) {

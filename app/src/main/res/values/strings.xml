@@ -10,7 +10,7 @@
     <string name="bob_tomـdescription">He blows himself up before Jerry can catch him.</string>
     <string name="crying_tom">Crying Tom</string>
     <string name="crying_tomـdescription">He cries quickly and fills the floor with tears.</string>
-    <string name="lover_tom">Lover Tom</string>
+    <string name="lover_tom">Tom The Lover </string>
     <string name="lover_tomـdescription">He loves one-sidedly... and is beaten by the other side.</string>
     <string name="scaring_tom">Scaring tom</string>
     <string name="scaring_tomـdescription">Scary cat.. A haunted house when he sees mouses</string>
@@ -47,4 +47,6 @@
     <string name="hunting_title">Hunting times</string>
     <string name="heartbroken_title">Heartbroken</string>
     <string name="fav_food">His favorite foods</string>
+    <string name="tom_username">Tom</string>
+    <string name="user_bio">specializes in failure!</string>
 </resources>
