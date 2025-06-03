@@ -39,8 +39,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             JetpackComposeTheChanceTheme {
                 Scaffold {
-                    //JerryStoreScreen(2)
-                    TomAccountScreen()
+                    JerryStoreScreen(2)
+                    //TomAccountScreen()
                 }
             }
         }

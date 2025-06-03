@@ -367,12 +367,12 @@ fun CustomLinearCard(
 
                 Box(
                     modifier = Modifier
-                        .offset(y = (-10).dp, x = (23).dp)
+                        .offset(y = (-10).dp,)
                         .requiredHeight(108.dp)
-                        .requiredWidth(80.dp)
+                      //  .requiredWidth(80.dp)
                 ) {
                     Image(
-                        painter = painterResource(R.drawable.offer_tom),
+                        painter = painterResource(R.drawable.tom_gredient_card),
                         contentDescription = "tom",
                         contentScale = ContentScale.Crop
                     )
