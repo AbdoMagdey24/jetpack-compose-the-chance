@@ -105,7 +105,7 @@ fun DetailScreen() {
                         )
                         .size(45.dp)
                         .padding(10.dp)
-                        .align(Alignment.End)
+                        .align(Alignment.End).clickable {  }
 
                 )
 
