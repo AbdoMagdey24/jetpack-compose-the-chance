@@ -77,10 +77,10 @@ fun DonutsHomeScreen(
             modifier = Modifier
                 .fillMaxSize()
         ) {
-            // ===== Scrollable Content =====
+
             Column(
                 modifier = Modifier
-                    .weight(1f) // Take all available space except BottomNavBar
+                    .weight(1f)
                     .verticalScroll(rememberScrollState())
                     .padding(start = 38.dp, bottom = 16.dp)
                     .navigationBarsPadding()
@@ -163,11 +163,11 @@ fun DonutsHomeScreen(
                 }
             }
 
-            // ===== Fixed Bottom Bar =====
+
             BottomNavBar(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(70.dp) // Adjust if needed
+                    .height(70.dp)
             )
         }
     }
