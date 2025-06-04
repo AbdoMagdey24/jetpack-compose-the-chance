@@ -9,3 +9,7 @@ val IBM_PLEX_SANS = FontFamily(
     Font(R.font.ibm_plex_arabic_text, weight = FontWeight.Medium),
     Font(R.font.ibm_plex_arabic_text, weight = FontWeight.Normal)
 )
+
+val INTER_FONT = FontFamily(
+    Font(R.font.inter_semi_bold, FontWeight.SemiBold)
+)

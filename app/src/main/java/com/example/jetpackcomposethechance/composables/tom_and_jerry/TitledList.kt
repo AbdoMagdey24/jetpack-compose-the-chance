@@ -1,4 +1,4 @@
-package com.example.jetpackcomposethechance.composables
+package com.example.jetpackcomposethechance.composables.tom_and_jerry
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

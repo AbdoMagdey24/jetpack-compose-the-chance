@@ -47,4 +47,12 @@
     <string name="chase_title">Chase time</string>
     <string name="hunting_title">Hunting times</string>
     <string name="heartbroken_title">Heartbroken</string>
+    <string name="gonuts_with_donuts">جو ناتس مع\nالدونات</string>
+    <string name="gonuts_with_donuts_desc">جو ناتس مع الدونات هو منفذ طعام مخصص في سريلانكا متخصص في تصنيع الدونات في كولومبو، سريلانكا.</string>
+    <string name="get_started_button">ابدأ الآن</string>
+    <string name="strawberry_wheel">عجلة الفراولة</string>
+    <string name="about_gonut">حول جونت</string>
+    <string name="wheel_donut_description">تتميز هذه الدونات الطرية الشبيهة بالكعك والمغطاة بطبقة فراولة طازجة بمذاق غني ونكهة الفراولة اللذيذة. جميلة بما يكفي للتقديم ومثالية لإرضاء شهيتك للحلويات.</string>
+    <string name="quantity">الكمية</string>
+
 </resources>

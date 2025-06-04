@@ -1,18 +1,12 @@
-package com.example.jetpackcomposethechance.composables
+package com.example.jetpackcomposethechance.composables.tom_and_jerry
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -26,15 +20,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.jetpackcomposethechance.R
-import com.example.jetpackcomposethechance.ui.theme.BlackTextTitle
-import com.example.jetpackcomposethechance.ui.theme.DetailsCardColor
-import com.example.jetpackcomposethechance.ui.theme.GrayText5E
-import com.example.jetpackcomposethechance.ui.theme.GrayText99
-import com.example.jetpackcomposethechance.ui.theme.GrayTextNormal
 import com.example.jetpackcomposethechance.ui.theme.IBM_PLEX_SANS
 import com.example.jetpackcomposethechance.ui.theme.Lemon
-import com.example.jetpackcomposethechance.ui.theme.Pink
-import com.example.jetpackcomposethechance.ui.theme.Pink80
 
 @Composable
 fun AccountColoredCard(

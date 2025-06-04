@@ -1,4 +1,4 @@
-package com.example.jetpackcomposethechance.composables
+package com.example.jetpackcomposethechance.composables.tom_and_jerry
 
 import android.content.res.Configuration
 import androidx.compose.ui.tooling.preview.Preview
